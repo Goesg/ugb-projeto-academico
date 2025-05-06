@@ -1,2 +1,8 @@
 ﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+using Academico.models;
+
+var alunoUgb = new Aluno();
+alunoUgb.DefinirNome("DG");
+alunoUgb.Altura = 3.33f;
+
+alunoUgb.Respirar();
